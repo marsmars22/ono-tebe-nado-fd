@@ -7,23 +7,22 @@
   width: 1100px;
   height: 293px;
   padding-right: 50px;
-  padding-left: 50px;  
+  padding-left: 50px; 
 }
-.header__menu-list
+.header__menu-list 
 {
   display: flex;
   gap: 30px;
   list-style: circle;
   text-transform: lowercase;
-  text-underline-offset: 3px;
-
+  text-underline-offset: 3px; 
 }
 .header__links-list-item_no-bullit 
 {
   list-style: none;
   text-decoration: none;
 }
-.header__logo-image
+.header__logo-image 
 {
   width: 148px;
   height: 105px;
@@ -62,22 +61,26 @@ z-index: 1;
   letter-spacing: 30px;
   z-index: 2;
 }
-.aligned-text{
+.aligned-text 
+{
   padding-left: 50px;
   padding-top: 165px;
   display: block;
 }
-.aligned-text_center {
+.aligned-text_center 
+{
   text-align: center;
   padding-top:18px;
   padding-left: 30px;
 }
-.aligned-text_right {
+.aligned-text_right 
+{
   text-align: end;
   padding-right: 20px;
   padding-top: 20px;
 }
-.cover__description{
+.cover__description 
+{
   padding-top: 115px;
   padding-left: 50px;
   display: flex;
@@ -85,14 +88,16 @@ z-index: 1;
  padding-bottom: 50px;
  text-transform: uppercase; 
 }
-.cover__description-text{
+.cover__description-text 
+{
 word-spacing: 19px;
 color: #FFFFFF;
 font-weight: 400;
 font-size: 22px;
 z-index: 2;
 }
-.bet-button{
+.bet-button 
+{
   all: unset;
   background: transparent;
   border:white solid 1px;
@@ -112,7 +117,7 @@ z-index: 2;
   padding-left: 24px;
   padding-right: 24px;
 }
-.lots__heading
+.lots__heading 
 {
   font-size: 40px;
   padding-left: 40px;
@@ -127,7 +132,7 @@ z-index: 2;
   grid-template-columns: 1fr 1fr 1fr;
 
 }
-.lots__card-list-item
+.lots__card-list-item 
 {
   display: flex;
   min-height: 596px;
@@ -135,7 +140,8 @@ z-index: 2;
 
 
 }
-.card {
+.card 
+{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -183,7 +189,7 @@ z-index: 2;
 {
   background: url(/images/card-lot-03.jpg)center/cover;
 }
-.lots__look-more-link
+.lots__look-more-link 
 {
   all: unset;
   text-decoration: underline;
@@ -201,12 +207,12 @@ z-index: 2;
   grid-template-columns: 334px 1fr;
   gap: 25px;
 }
-.about__column-left
+.about__column-left 
 {
   padding-top: 35px;
 }
 
-.about__logo
+.about__logo 
 {
   width: 240px;
   height: 240px;
@@ -257,21 +263,21 @@ padding-top: 180px;
   font-size: 18px;
 }
 .footer__menu-list 
-{
+  {
   list-style: none;
   text-align: center;
   font-size: 18px;
   text-transform: lowercase;
-}
+  }
 .footer__social-list 
-{
+  {
   display: flex;
   list-style: none;
   gap: 48px;
-justify-content: end;  
-padding-right: 50px ;
-}
+  justify-content: end;  
+  padding-right: 50px ;
+  }
 .footer__social-icon 
-{
+  {
   height: 48px;
-}
+  }
