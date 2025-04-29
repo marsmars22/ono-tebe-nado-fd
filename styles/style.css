@@ -1,5 +1,4 @@
-.header 
-{
+.header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -9,16 +8,14 @@
   padding-right: 50px;
   padding-left: 50px; 
 }
-.header__menu-list 
-{
+.header__menu-list {
   display: flex;
   gap: 30px;
   list-style: circle;
   text-transform: lowercase;
   text-underline-offset: 3px; 
 }
-.header__links-list-item_no-bullit 
-{
+.header__links-list-item_no-bullit {
   list-style: none;
   text-decoration: none;
 }
@@ -255,8 +252,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 padding-top: 180px;
 }
-.footer__address 
-{
+.footer__address {
   list-style: none;
   padding-left: 50px;
   font-style: normal;
