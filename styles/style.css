@@ -1,4 +1,7 @@
 
+body {
+  width: 1100px;
+}
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -7,14 +10,14 @@
   width: 1100px;
   height: 293px;
   padding-right: 50px;
-  padding-left: 50px; 
+  padding-left: 50px;
 }
 .header__menu-list {
   display: flex;
   gap: 30px;
   list-style: circle;
   text-transform: lowercase;
-  text-underline-offset: 3px; 
+  text-underline-offset: 3px;
 }
 .header__links-list-item_no-bullit {
   list-style: none;
@@ -231,7 +234,7 @@ padding-top: 180px;
   list-style: none;
   gap: 48px;
   justify-content: end;  
-  padding-right: 50px ;
+  padding-right: 50px;
   }
 .footer__social-icon {
   height: 48px;
