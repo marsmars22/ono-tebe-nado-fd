@@ -18,17 +18,23 @@ html {
   list-style: circle;
   text-transform: lowercase;
   text-underline-offset: 3px;
-  padding-top: 133px;
+  padding-top: 90px;
 }
 .header__links-list-item_no-bullit {
   list-style: none;
   text-decoration: none;
 }
+.header__logo {
+  padding-top: 92px;
+
+}
 .header__logo-image {
+  
   width: 148px;
   height: 105px;
 }
 .header__address {
+  padding-top: 95px;
   margin-left: 184px;
   list-style: none;
   font-style: normal;
