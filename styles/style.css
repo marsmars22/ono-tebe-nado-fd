@@ -1,6 +1,8 @@
 
-body {
-  width: 1100px;
+html {
+width: 1100px;
+margin: auto;
+
 }
 .header {
   display: grid;
@@ -36,7 +38,7 @@ body {
   text-underline-offset: 3px;
 }
 .cover {
-  background: url(/images/cover.jpg) center/cover ;
+  background: url(/images/cover.jpg) center/cover;
   position: relative;
 }
 .overlay {
@@ -233,7 +235,7 @@ padding-top: 180px;
   display: flex;
   list-style: none;
   gap: 48px;
-  justify-content: end;  
+  justify-content: end;
   padding-right: 50px;
   }
 .footer__social-icon {
