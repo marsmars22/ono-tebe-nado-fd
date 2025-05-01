@@ -2,7 +2,6 @@
 html {
 width: 1100px;
 margin: auto;
-
 }
 .header {
   display: grid;
@@ -224,6 +223,7 @@ padding-top: 180px;
   padding-left: 50px;
   font-style: normal;
   font-size: 18px;
+  padding-bottom: 82px;
 }
 .footer__menu-list {
   list-style: none;
